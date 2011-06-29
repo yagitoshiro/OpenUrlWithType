@@ -15,6 +15,10 @@ import org.appcelerator.titanium.TiContext;
 import org.appcelerator.titanium.util.Log;
 import org.appcelerator.titanium.util.TiConfig;
 
+import android.net.Uri;
+import android.content.Intent;
+import android.content.ActivityNotFoundException;
+
 @Kroll.module(name="Openurlwithtype", id="org.selfkleptomaniac.ti.openurlwithtype")
 public class OpenurlwithtypeModule extends KrollModule
 {

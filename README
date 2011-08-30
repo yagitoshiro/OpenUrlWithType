@@ -1,0 +1,5 @@
+Usage:
+
+var movie_url = 'http://example.com/path/to/movie.mp4';
+var ex_module = require('org.selfkleptomaniac.ti.openurlwithtype');
+ex_module.openURLWithType(movie_url, 'video/mp4');
